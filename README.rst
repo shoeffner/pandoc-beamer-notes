@@ -6,7 +6,7 @@ It allows to use markdown in LaTeX notes.
 
 Thus something like the following will be rendered nicely:
 
-.. code-block:: markdown
+.. code-block::
 
     \note{**this is bold**}
     \note{
