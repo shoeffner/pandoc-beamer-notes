@@ -21,8 +21,8 @@ setup(
   'latex beamer presentations.',
   long_description=README,
   entry_points={'console_scripts':
-                ['pandoc-beamer-notes = pandoc_beamer_notes:main',
-                 'pandoc-beamer-notes.py = pandoc_beamer_notes']},
+                ['pandoc-beamer-notes = pandoc_beamer_notes:main']},
+  scripts=['pandoc_beamer_notes/pandoc-beamer-notes.py'],
   author='Sebastian Höffner',
   author_email='info@sebastian-hoeffner.de',
   url=REPOSITORY,
