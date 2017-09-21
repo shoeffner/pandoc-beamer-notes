@@ -29,7 +29,7 @@ setup(
   download_url='{}/tarball/{}'.format(REPOSITORY, __version__),
   packages=['pandoc_beamer_notes'],
   classifiers=[
-      'Development Status :: 3 - Alpha',
+      'Development Status :: 7 - Inactive',
       'Intended Audience :: Science/Research',
       'License :: OSI Approved :: MIT License',
       'Natural Language :: English',
